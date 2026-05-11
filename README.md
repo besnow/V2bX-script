@@ -1,18 +1,13 @@
-# V2bX
-A V2board node server based on Xray-Core.
+# V2bX-script
 
-一个基于Xray的V2board节点服务端，支持V2ay,Trojan,Shadowsocks协议
+Besnow V2bX xray-only fork installation and management scripts.
 
-Find the source code here: [InazumaV/V2bX](https://github.com/InazumaV/V2bX)
+本脚本用于安装和管理 [besnow/V2bX](https://github.com/besnow/V2bX) release 产物，并固定使用 xray 核心生成配置。
 
-如对脚本不放心，可使用此沙箱先测一遍再使用：https://killercoda.com/playgrounds/scenario/ubuntu
-
-# 详细使用教程
-
-[教程](https://v2bx.v-50.me/)
+支持的向导协议：Shadowsocks、Vless、Vmess、Trojan。
 
 # 一键安装
 
 ```
-wget -N https://raw.githubusercontent.com/wyx2685/V2bX-script/master/install.sh && bash install.sh
+wget -N https://raw.githubusercontent.com/besnow/V2bX-script/master/install.sh && bash install.sh
 ```
